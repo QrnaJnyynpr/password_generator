@@ -1,0 +1,78 @@
+body {
+	display: flex;
+	height: 95%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #435260;
+}
+
+label {
+	font-size: 26px;
+   	color:white;
+	font-family: Economica, sans-serif;
+}
+
+input {
+	border: 3px solid #ccc;
+	padding: 12px;
+	margin: 6px;
+	text-align: center;
+	border-radius: 3px;
+	font-family: 'Economica', sans-serif; font-size: 20px;
+	color: #155475;
+}
+
+input:focus { 
+	border: 3px solid #155475;
+	text-align: center;
+	color: #155475;
+}
+
+.title {
+	text-align: center;
+	font-size: 48px;
+	margin: 12px;
+	color: #fff;
+	font-family: Economica, sans-serif;
+}
+
+.button {
+	background-color: #155475;
+	border: 2px solid #e7e7e7;
+	border-radius: 6px;
+	color: #ffffff;
+	padding: 12px 6px;
+	text-align: center;
+	font-size: 22px;
+	cursor: pointer;
+	font-family: 'Economica', sans-serif;
+	width: 252px;
+	margin: 6px;
+}	
+
+.button:hover {
+	box-shadow: 0px 0px 12px 0px #fff;
+}
+
+:-ms-input-placeholder {
+	font-family: 'Economica', sans-serif;
+	font-size: 20px;
+}
+
+#output {
+	font-size: 30px;
+	background-color: #155475;
+	border: 2px solid #e7e7e7;
+	border-radius: 6px;
+	word-break: break-all;
+	color: #fff;
+	padding: 12px 12px;
+	text-align: center;
+	font-family: 'Economica', sans-serif;
+	margin: 6px;
+}
+
+#checklabel {
+	font-size: 15px;
+}
