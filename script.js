@@ -31,6 +31,5 @@ document.getElementById('button').onclick = function() {
 	}
 
 	var result = randomString(passlength, chars);
-	console.log(result)
 	document.getElementById("outputbox").innerHTML = '<div id="output">' + result + '</div>';
 }
